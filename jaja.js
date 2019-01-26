@@ -1,3 +1,7 @@
+document.getElementById("scroll-bott").addEventListener("click", function () {
+    document.body.scrollIntoView(false);
+  });
+
 (function($){
     'use strict';
       $(window).on('load', function () {
@@ -6,6 +10,6 @@
               $(".pre-loader").fadeOut("slow");
           }
       });
-  })(jQuery)
+  })(window.stop());
 
   
